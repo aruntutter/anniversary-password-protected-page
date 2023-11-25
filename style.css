@@ -25,16 +25,30 @@ h3 {
   color: #666;
 }
 
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 18px;
+  padding: 0;
+  /* Ensure no default margin */
+  color: #888;
+  /* Adjust color as needed */
+  text-align: start;
+}
+
 input {
-  margin-top: 10px;
+  margin-top: 5px;
+  /* Adjusted margin */
   padding: 8px;
   width: 60%;
   font-size: 16px;
 }
 
 button {
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 15px;
+  /* Adjusted margin */
+  padding: 8px;
+  /* Adjusted padding */
   font-size: 16px;
   cursor: pointer;
 }

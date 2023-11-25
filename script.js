@@ -6,6 +6,6 @@ function checkPassword() {
   if (password === "Nirvana") {
     linkContainer.style.display = "block";
   } else {
-    alert("Incorrect password. First letter should be in Capital");
+    alert("Incorrect password. Please try again");
   }
 }
